@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
 </head>
 <body background="back.jpg">
     <div class="container">
       <h2>Traitement automatique de corpus: Traveaux Pratiques</h2>
+      <hr/>
       <div class="row">
-          <h3>TP1: Liste des notebooks</h3>
+          <h3>TP1: Web scraping et APIs</h3>
           <div class="col m4">
             <div class="card waves-light">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -24,48 +24,74 @@
                 </div>
                 <div class="card-content">
                   <span class="card-title activator grey-text text-darken-4">Requête SPARQL<i class="material-icons right">more_vert</i></span>
-                  <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_sparql.ipynb">Voir le notebook</a></p>
+                  <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_sparql.ipynbcd">Voir le notebook</a></p>
                 </div>
                 <div class="card-reveal">
                   <span class="card-title grey-text text-darken-4">Requête SPARQL<i class="material-icons right">close</i></span>
                   <p>Ce notebook démontre l'obtention de l'ensemble des rue de la ville de Bruxelles ainsi que la possibilité de filtrer les résultats sur base de mots-clés recherchés.</p>
                 </div>
               </div>
-            </div>
-            <div class="col s4 m4">
-              <div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" height="300" width="400" src="https://www.jaimelesstartups.fr/wp-content/uploads/2021/03/logo_green.png">
-                  </div>
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Requête api: NLP<i class="material-icons right">more_vert</i></span>
-                    <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_api_NLP.ipynb">Voir le notebook</a></p>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Requête api: NLP<i class="material-icons right">close</i></span>
-                    <p>Le notebook api "NLP" permet d'invoquer une api afin de traduire du texte extrait du corpus de la ville de Bruxelles en Français ou en Néerlandais selon la langue d'entrée:</p>
-                    <ul>
-                        <li>FR vers NL</li>
-                        <li>NL vers FR</li>
-                    </ul>
-                  </div>
+          </div>          
+          <div class="col m4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" height="300" width="400" src="https://www.jaimelesstartups.fr/wp-content/uploads/2021/03/logo_green.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">NLP: Translation api<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_api_NLP.ipynb">Voir le notebook</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">NLP: Translation api<i class="material-icons right">close</i></span>
+                  <p>Le notebook api "NLP" permet d'invoquer une api afin de traduire du texte extrait du corpus de la ville de Bruxelles en Français ou en Néerlandais selon la langue d'entrée:</p>
+                  <ul>
+                      <li>FR vers NL</li>
+                      <li>NL vers FR</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col s4 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" height="300" width="400" src="https://hotpot.ai/images/site/ai/remaster/teaser.jpg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Requête api: Clolorizer<i class="material-icons right">more_vert</i></span>
-                      <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_api_colorize.ipynb">Voir le notebook</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>L'api "Colorizer" permet de traitement des images éditée en noir et blanc en y ajoutant des couleurs.</p>
-                    </div>
-                  </div>
+          </div>
+          <div class="col m4">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" height="300" width="400" src="https://hotpot.ai/images/site/ai/remaster/teaser.jpg">
                 </div>
-      </div>    
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Colorize api<i class="material-icons right">more_vert</i></span>
+                  <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_api_colorize.ipynb">Voir le notebook</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Colorize api<i class="material-icons right">close</i></span>
+                  <p>L'api "Colorizer" permet de traitement des images éditée en noir et blanc en y ajoutant des couleurs.</p>
+                </div>
+              </div>
+          </div>
+      </div>  
+      <hr/>  
+      <div class="row">
+        <h3>TP2: Extraction d'information</h3>
+        <div class="col m4">
+          <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" height="300" width="400" src="https://hotpot.ai/images/site/ai/remaster/teaser.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Colorize api<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/id-farid/tac/blob/master/TP1/TP1_api_colorize.ipynb">Voir le notebook</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Colorize api<i class="material-icons right">close</i></span>
+                <p>L'api "Colorizer" permet de traitement des images éditée en noir et blanc en y ajoutant des couleurs.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 m8">
+          <div class="card-panel grey darken-2">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div>
+        </div>
+    </div>  
 </body>
 </html>
